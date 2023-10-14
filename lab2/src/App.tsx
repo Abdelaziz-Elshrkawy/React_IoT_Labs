@@ -7,15 +7,15 @@ import Increment from "./Components/task4";
 function App() {
   return (
     <div className="App">
-     <FunctionalProps
+      <FunctionalProps
         name="abdelaziz"
         age={28}
         collage="Science"
         track="IoT"
-      /> 
-      <ClassProps courseOne="MySQL" CourseTwo="Linux" />
+      />
+      {/*       <ClassProps courseOne="MySQL" CourseTwo="Linux" />
       <Login />
-      <Increment />
+      <Increment /> */}
     </div>
   );
 }
