@@ -12,7 +12,7 @@ export default class Increment extends Component<
     };
   }
 
-  increment = (event?: string) => {
+  changeValue = (event?: string): void => {
     const nextValue =
       event === "increment"
         ? this.state.counter + 1
@@ -31,7 +31,7 @@ export default class Increment extends Component<
         <h3>Task4</h3>
         <button
           onClick={() => {
-            this.increment();
+            this.changeValue();
           }}
           className="increment"
         >
@@ -40,7 +40,7 @@ export default class Increment extends Component<
         <span>{this.state.counter}</span>
         <button
           onClick={() => {
-            this.increment("increment");
+            this.changeValue("increment");
           }}
           className="increment"
         >

@@ -16,7 +16,7 @@ export default class Login extends Component<PropsWithChildren, task3State> {
   render() {
     return (
       <div id="task3">
-        <hr/>
+        <hr />
         <h3>Task3</h3>
         <p>{!this.state.isLoggedIn ? "Gust" : "You now have a subscription"}</p>
         <p></p>
