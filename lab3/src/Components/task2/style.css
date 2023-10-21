@@ -1,0 +1,21 @@
+
+#sign-up-div{
+    margin-top: 50px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+
+}
+#form input,#form button{
+    margin-top: 20px;
+}
+
+#form button{
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+}
