@@ -1,0 +1,25 @@
+#task1 {
+  margin: 50px 20px;
+  display: flex;
+  column-gap: 15px;
+}
+
+.product-div {
+  width: 20%;
+  box-shadow: 0 0 10px 0 #00000049;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img-div {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.img-div:hover {
+  transform: scale(1.05);
+}
+.img-div img {
+  width: 100%;
+}
