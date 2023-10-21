@@ -7,8 +7,8 @@ import Task4 from "./Components/task4/task4";
 function App() {
   return (
     <div className="App">
-      {/* <Products /> */}
-      {/* <Task2 /> */}
+      <Products />
+      <Task2 /> 
       <Comp1 />
       <Task4/>
     </div>
