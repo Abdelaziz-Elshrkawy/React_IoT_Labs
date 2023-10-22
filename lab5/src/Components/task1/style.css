@@ -1,0 +1,24 @@
+#task1{
+    display: flex;
+
+}
+#posts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+    position: relative;
+    left: 50%;
+}
+
+#post-by-id{
+    margin-top: 20px;
+    width: 45%;
+    position: fixed;
+}
+.post{
+    margin: 60px auto;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+}
